@@ -27,4 +27,12 @@ public class Array {
 		return encontrado;
 	}
 	
+	public void incrementarValor() {
+		int i = 0;
+		while (i < array.length) {
+			array[i] = array[i] + 1;
+			i++;
+		}
+		System.out.println(Arrays.toString(array));
+    }
 }
